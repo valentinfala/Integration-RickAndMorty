@@ -1,0 +1,45 @@
+.container {
+   
+
+    border-radius: 20px; 
+    padding: 20px;
+    margin: 5%;
+    margin: 20px;
+    font-size: 14px;
+    font-family: monospace;
+    color: #B2FF00;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.h1 {
+     background-color:  black;
+     border-radius: 15px;
+     padding: 5px;
+  
+}
+
+.img {
+    width: 65%;
+    padding-bottom: 20px;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    transition: all 0.5 ease;
+    }
+
+.btn {
+    background-color: black;
+    color:#B2FF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    margin-left: 33%;
+    margin-top: 50px;
+    padding: 5px;
+
+}
+    

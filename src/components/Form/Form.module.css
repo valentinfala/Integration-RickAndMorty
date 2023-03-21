@@ -1,0 +1,32 @@
+.input {
+    border-color : white;
+    padding: 2px;
+    margin: 5px;
+    margin-bottom: 10px;
+    width: 40%;
+   
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 5%;
+    
+    color: aliceblue;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+.image {
+    padding: 20px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
