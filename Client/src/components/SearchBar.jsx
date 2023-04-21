@@ -40,6 +40,7 @@ export default function SearchBar(props) {
    const handleInputChange = (event) => {
    const {value} = event.target;
    setCharacter(value)
+  
    
 }
    return (

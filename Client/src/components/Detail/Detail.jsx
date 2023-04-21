@@ -11,14 +11,10 @@ export default function Detail(props) {
   const [character, setCharacter] = useState({});
   
   useEffect(() => {
-    fetch(`https://rickandmortyapi.com/api/character/${detailId}`)
+    fetch(`http://localhost:3001/rickandmorty/character/${detailId}`)
       .then((response) => response.json())
       .then((data) => {
-        
-       data.name ? setCharacter(data) : alert ('no hay personajes con ese ID')
-  
-  
-  
+        data.name ? setCharacter(data) : alert("no hay personajes con ese ID");
       })
       .catch((err) => {
         window.alert("No hay personajes con ese ID");

@@ -26,8 +26,7 @@ export default function Nav(props) {
            
              <NavLink className= {({isActive}) => isActive ? styles.active : styles.disable} to='/home'>Home</NavLink>
              <NavLink className= {({isActive}) => isActive ? styles.active : styles.disable} to='/About'>About us</NavLink>
-             <NavLink className= {({isActive}) => isActive ? styles.active : styles.disable} to='/Contact'>Contact</NavLink>
-             
+             <NavLink className= {({isActive}) => isActive ? styles.active : styles.disable} to='/Favorites'>Favorites</NavLink>
              <SearchBar className= {styles.search}onSearch={(characterID) => props.onSearch(characterID)}/>
            
        
